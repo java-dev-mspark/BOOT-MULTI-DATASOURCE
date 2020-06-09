@@ -39,7 +39,5 @@ public class MongoConfig  extends AbstractMongoClientConfiguration{
 	protected Collection<String> getMappingBasePackages() {
 		return Collections.singleton("com.mspark.multidatabase.domain.mongo");
 	}
-
-	
 	
 }
